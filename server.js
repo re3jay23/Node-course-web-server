@@ -74,6 +74,14 @@ app.get('/bad',(req,res)=>{
 	});
 });
 
+// registering a new 'project' link
+app.get('/project',(req,res)=>{
+	res.render('project.hbs',{
+		pageTitle:"Project page",
+		message:"Portfolio page here"
+	})
+});
+
 app.listen(port ,()=>{
 	console.log(`Server is up on port ${port}`);
 });
