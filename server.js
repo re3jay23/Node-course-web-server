@@ -3,6 +3,8 @@ const hbs = require('hbs');
 const fs = require('fs');
 const port = process.env.PORT || 3000;
 
+// adding a note;
+
 var app = express();
 
 // hbs.registerPartials : handlebarsjs function to use partials to add HTML tags dynamically.
