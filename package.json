@@ -1,0 +1,20 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/re3jay23/Node-course-web-server.git"
+  },
+  "author": "Ari Widjaja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/re3jay23/Node-course-web-server/issues"
+  },
+  "homepage": "https://github.com/re3jay23/Node-course-web-server#readme"
+}
